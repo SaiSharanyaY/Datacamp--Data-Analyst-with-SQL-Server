@@ -36,7 +36,7 @@ AS
 ```
 
 
-## Practicing creating triggers
+## Practicing  creating  triggers
 The Fresh Fruit Delivery company needs help creating a new trigger called OrdersUpdatedRows on the Orders table.
 
 This trigger will be responsible for filling in a historical table (OrdersUpdate) where information about the updated rows is kept.
@@ -62,6 +62,7 @@ AS
 
 
 ## When to use triggers
+
 Triggers are a good way to execute additional actions when changes occur in your database.
 
 Triggers can also be used to prevent changes and execute different actions instead.
@@ -143,6 +144,7 @@ Possible Answers
 
 ## Triggers vs. computed columns
 While continuing your analysis of the database, you find two other interesting objects:
+
 
 The table SalesWithPrice has a column that calculates the TotalAmount as Quantity * Price. This is done using a computed column which uses columns from the same table for the calculation.
 
